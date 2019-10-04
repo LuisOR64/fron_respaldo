@@ -1,0 +1,60 @@
+
+.imagen_CU{
+    height:200px !important;
+    width: 170px !important;
+
+}
+
+.navBarColor{
+    font-size: 24px !important;
+    background-color: #ffbc1a !important;
+    color: white !important; 
+
+    text-align: center !important;
+}
+
+body {
+    background-color: #fbfdff !important;
+}
+
+.custom-column {
+    background-color: #eee !important;
+    border: 10px solid  #eee !important;
+    margin-top: 20px !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.custom-column-header {
+    font-size: 24px;
+    background-color: #ffbc1a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+.custom-column-content {
+    background-color: #fff;
+    border: 2px solid white;
+    padding: 20px;
+
+}
+
+.custom-column-footer {
+    background-color: #eee;
+
+    text-align: center;
+    border: 5px solid  #eee;
+    padding: 10px;
+
+}
+.botonAcceder{
+    /* background-color: #ffbc1a; */
+    color: white;
+}

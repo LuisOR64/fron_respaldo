@@ -1,0 +1,1 @@
+export let api_url = 'http://5d8d5b92370f02001405be96.mockapi.io';

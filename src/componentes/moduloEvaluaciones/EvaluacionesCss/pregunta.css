@@ -1,0 +1,62 @@
+.number-input input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.number-input input[type="number"]::-webkit-inner-spin-button,
+.number-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.number-input {
+  margin-bottom: 3rem;
+}
+.number-input button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+.number-input button:before,
+.number-input button:after {
+  display: inline-block !important;
+  position: absolute !important;
+  content: "" !important;
+  height: 2px !important;
+  transform: translate(-50%, -50%) !important;
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg) !important;
+}
+.number-input input[type="number"] {
+  text-align: center !important;
+}
+.number-input.number-input {
+  border: 1px solid #ced4da !important;
+  width: 10rem !important;
+  border-radius: 0.25rem !important;
+}
+.number-input.number-input button {
+  width: 2.6rem !important;
+  height: 0.7rem !important;
+}
+.number-input.number-input button.minus {
+  padding-left: 10px !important;
+}
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+  width: 0.7rem !important;
+  background-color: #495057 !important;
+}
+.number-input.number-input input[type="number"] {
+  max-width: 4rem !important;
+  padding: 0.5rem !important;
+  border: 1px solid #ced4da !important;
+  border-width: 0 1px !important;
+  font-size: 1rem !important;
+  height: 2rem !important;
+  color: #495057 !important;
+}

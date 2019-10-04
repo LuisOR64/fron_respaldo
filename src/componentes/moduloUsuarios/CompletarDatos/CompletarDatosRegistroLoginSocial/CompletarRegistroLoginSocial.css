@@ -1,0 +1,54 @@
+.img_CR{
+    height:200px ;
+    width: 200px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.body_CR {
+    background-color: #fbfdff;
+}
+
+.custom-column {
+    background-color: #eee;
+    border: 10px solid  #eee;
+
+    margin-left: 20%;
+
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.custom-column-header {
+    font-size: 24px;
+    background-color: #ffbb4d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.custom-column-content {
+    background-color: #fff;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.custom-column-footer {
+    background-color: #eee;
+
+    text-align: center;
+    border: 5px solid  #eee;
+    padding: 10px;
+}
+.botonTableroAdmi{
+    background-color: #ffbc1a;
+    color: white;
+}

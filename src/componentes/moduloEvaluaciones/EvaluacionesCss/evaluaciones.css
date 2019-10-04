@@ -1,0 +1,20 @@
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-menu {
+  width: 50px !important;
+  /* float: right; */
+    /* background-color: palevioletred; */
+    /* position: fixed !important; */
+    
+}
+
+.cuadro_opciones_eva{
+  position: absolute !important;
+  bottom: 100px !important;
+  right: 200px !important; 
+  /* left: 200px !important; */
+  justify-content: center !important;
+  text-align: center !important;
+  background-color: red !important;
+}
