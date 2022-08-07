@@ -20,6 +20,7 @@ import servicio_token from './servicios/servicio_token';
 import Evaluaciones from './componentes/moduloEvaluaciones/crearEvaluaciones/Evaluaciones';
 import VerEvaluacion from './componentes/moduloEvaluaciones/verEvaluacion/VerEvaluacion';
 import ResultadoEvaluacion from './componentes/moduloEvaluaciones/verEvaluacion/ResultadoEvaluacion';
+import ConfirmarInicioEvaluacion from './componentes/moduloEvaluaciones/verEvaluacion/ConfirmarInicioEvaluacion';
 
 class App extends Component {
 
@@ -101,6 +102,14 @@ class App extends Component {
                   }else{
                     return <Redirect f_cargar_props={this.cargar_props} propiedades_={this.propiedades} to={{pathname: '/CuadroDeComandoUsuarios'}}></Redirect>
                   }
+              }}></Route>
+
+<Route exact path='/ConfirmarInicioEvaluacion' render={()=>{
+                  //if(this.state.logeado === false){
+                    return <ConfirmarInicioEvaluacion f_cargar_props={this.cargar_props} propiedades_={this.propiedades}></ConfirmarInicioEvaluacion>
+                  //}else{
+                    //return <Redirect f_cargar_props={this.cargar_props} propiedades_={this.propiedades} to={{pathname: '/CuadroDeComandoUsuarios'}}></Redirect>
+                  //}
               }}></Route>
 
               <Route exact path='/CuadroDeComandoUsuarios' render={()=>{

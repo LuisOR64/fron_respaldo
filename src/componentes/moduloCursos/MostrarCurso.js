@@ -30,7 +30,7 @@ class MostrarCurso extends Component {
                 {
                     tipo: "archivo",
                     titulo: "Lectura complementaria: Redes",
-                    descripcion: "Mas informacion en: http://drive.google.com/uc?export=view&id=1WyTJK4A5j8EMcr2rjpNkD0NZ5dnYLFmp",
+                    descripcion: "Mas informacion",
                     url: "http://drive.google.com/uc?export=view&id=1WyTJK4A5j8EMcr2rjpNkD0NZ5dnYLFmp"
                 },
                 {
@@ -178,7 +178,7 @@ class MostrarCurso extends Component {
 
 <div className={'row justify-content-center'}>
                 <div className="col col-md-8 justify-content-center opciones">
-                        <Link to="/Evaluaciones">
+                        <Link to="/ConfirmarInicioEvaluacion">
                         <button name="boton_eva" data-toggle="modal" data-target="#texto_modal" type="button" className={ "btn btn-primary botones"} >
                             <i class="fas fa-6x fa-clipboard-list"></i>
                         </button>
